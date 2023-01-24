@@ -35,7 +35,14 @@ Oracle - SQL - PL/SQL - modélisation - base de données relationnelle - Trigger
 
 
 ### 1. Médelisation
-La première étape de ce projet consiste à modéliser la base de données en utilisant les outils appropriés. Cela inclut la définition des tables, des relations entre les tables, et des contraintes pour garantir l'intégrité des données.
+La première étape de ce projet consiste à modéliser la base de données en utilisant les outils appropriés. Cela inclut la définition des tables, des relations entre les tables, et des contraintes pour garantir l'intégrité des données.    
+
+<img src="/Captures/Capture_modelisation.png" />   
+<hr>
+<img src="/Captures/Capture_modelisation1.png" />    
+<hr>
+<img src="/Captures/Capture_modelisation2.png" />
+
 
 ### 2. Gestion des transactions
 Oracle propose des outils pour gérer les transactions de manière efficace. Ces outils seront utilisés pour garantir l'intégrité des données et éviter les conflits lors de la mise à jour de la base de données. Les détails de l'expérience sont [ici](Projet/Transactions.pdf)
@@ -82,4 +89,4 @@ Les vues seront utilisées pour faciliter l'interaction avec les données. Elles
 
 🌐 My Portfolio: <https://kebiri-isam-dine.github.io/>
 
-🔗 Project Link: [https://github.com/Kebiri-isam-dine](https://github.com/Kebiri-isam-dine)
+🔗 Project Link: <https://github.com/kebiri-isam-dine/Administration-BD-Oracle>
