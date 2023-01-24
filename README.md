@@ -62,34 +62,13 @@ Les requêtes réparties seront évaluées pour garantir la performance de la ba
 - Étude et comparaison de tous les plans d’exécution obtenus
 
 Solution proposée [DistributedRequests.sql](/DistributedRequests.sql)
-## Output
-
-`` or `![image]({BadgeURLHere})`
-- Première partie :
-  * Travaille demandé :
-➥ Exploitation des principales bases de données de protéines (Protein Data Bank) : NCBI, PDB et PubMed pour ensuite décortiquer un article scientifique basé sur l’application des outils de l’IA sur des séquences nucléotides
-  * Rendement :
-➥ [Rapport sur l'article Classification and specific primer design for accurate detection of SARS-CoV-2 using deep learning](Output/Rapport01.pdf)
-➥ [Décortication de l'aticle](Output/Décortication_de_l'aticle.pdf)
-  
-* Deuxième partie :
-  * Travaille demandé :
-➥ Sur le serveur NCBI, identifier toutes les séquences de la protéine de la pénicilline.
-➥ Choisir un type de pénicilline et récupérer la séquence au format FASTA.
-➥ En utilisant la séquence récupérée au format FASTA, faites un BLAST au NCBI.
-➥ A laide de la même séquence au format FASTA, interroger la banque de données SwissProt en recherchant les séquences voisines.
-➥ Est-ce que les séquences trouvées sont les mêmes que celle trouvées par BLAST.
-  * Rendement :
-➥ [Rapport Alignement des séquences par FASTA et BLAST](Output/Rapport02.pdf)
-
-* Troixième partie :
-  * Travaille demandé :
-  ➥ programmer la méthode d’alignement globale par programmation dynamique en python et de déduire l’arbre phylogénique par la méthode UPGMA (avec sub=-1, Id=2 et GAP=2) puis en utilisant l’algorithme claustral déterminer l’alignement global. En déduire l’arbre phylogénétique et comparer les résultats avec les résultats obtenus précédemment
-  ➥ script python : [AAlignement_globale _UPGMA.ipynb](Alignement_globale%20_UPGMA.ipynb)
 
 
+### 5. Gestion de vues
+Les vues seront utilisées pour faciliter l'interaction avec les données. Elles permettront de regrouper les données pertinentes pour chaque utilisateur ou tâche spécifique. L'objectifs de notre travail est la création et interrogation de vues, restructuration d’une BD.
 
-
+- Travail à faire [Views.pdf](/Project/Views.pdf)
+- Solution proposée [Views.sql](/Views.sql)
 
 
 ## License

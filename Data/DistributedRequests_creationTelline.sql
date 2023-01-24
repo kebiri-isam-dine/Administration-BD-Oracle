@@ -32,5 +32,5 @@ INSERT INTO EMPT VALUES (7844, 'benain', 'commercial',3, 30);
 INSERT INTO EMPT VALUES (7876, 'clement', 'secretaire',2, 20);
 INSERT INTO EMPT VALUES (7900, 'fremont', 'secretaire',3, 30);
 INSERT INTO EMPT VALUES (7934, 'villard', 'secretaire',3, 30);		   
-			
+				
 COMMIT;

@@ -117,24 +117,7 @@ Les étapes :
 
 
 -- Q2
-DROP TABLE CHERCHEUR_EQUIPE;    
--- CREATION DE LA TABLE
-CREATE TABLE CHERCHEUR_EQUIPE (
-    CODECH NUMBER(5),
-    CODEEQ NUMBER(5),
-    PRIMARY KEY (CODECH, CODEEQ)
-);
 
--- PEUPLER LA TABLE
-Alter table chercheur
-disable constraint Eq_Ch;
-
-
-
-
-
-----------------------------------
--- Réponse ChatGPT :
 /*
 LES ÉTAPES EFFECTUÉES PAR L'administrateur pour réaliser la restructuration de la base de données sont les suivantes:
 - CRÉER UNE NOUVELLE TABLE APPELÉE CHERCHEUR_EQUIPE POUR STOCKER LES ASSOCIATIONS ENTRE LES CHERCHEURS ET LES ÉQUIPES. CETTE TABLE AURAIT DES COLONNES CODECH, CODEEQ ET UNE CLÉ PRIMAIRE COMBINÉE SUR LES DEUX COLONNES.
