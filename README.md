@@ -9,6 +9,8 @@
 
 
 ![GitHub dev_language](https://img.shields.io/badge/Oracle-red?style=flat&logo=oracle&logoColor=white)
+![GitHub dev_language](https://img.shields.io/badge/SQL-005C84?style=flat&logo=maas&logoColor=white)
+![GitHub dev_language](https://img.shields.io/badge/PL/SQL-005C84?style=flat&logo=maas&logoColor=white)
 
 
 ![GitHub Org's stars](https://img.shields.io/github/stars/kebiri-isam-dine?style=social)
